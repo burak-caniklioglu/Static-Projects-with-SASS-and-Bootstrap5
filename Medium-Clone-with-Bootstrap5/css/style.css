@@ -15,8 +15,12 @@ body{
     width: 50%;
 }
 .bor-bot-light{
-    border-bottom: 1px solid #ebecec;
+    border-bottom: 1px solid #0d6b6b;
 }
 .aside-buttons > li{
     margin-bottom: 1rem;
+}
+
+.bor-top-light{
+    border-top: 1px solid #e0e0e0;
 }
