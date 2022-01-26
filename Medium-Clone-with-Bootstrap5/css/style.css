@@ -11,3 +11,12 @@ body{
 .bor-rad{
     border-radius: 20px;
 }
+.wd-50{
+    width: 50%;
+}
+.bor-bot-light{
+    border-bottom: 1px solid #ebecec;
+}
+.aside-buttons > li{
+    margin-bottom: 1rem;
+}
