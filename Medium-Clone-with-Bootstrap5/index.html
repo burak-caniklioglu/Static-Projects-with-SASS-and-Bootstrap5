@@ -14,17 +14,20 @@
       crossorigin="anonymous"
     />               
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Dosis:wght@300&family=Indie+Flower&family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Poppins:wght@300&family=Roboto+Slab&display=swap" rel="stylesheet">
 
     <title>Medium</title>
   </head>
   <body>
       <!-- Navbar uzerindki renk ve border boydan boya oldugu icin div icine aldık style css icerisinde bgc-light-blue  ve bor-bot-dark adlı class olusturup renk ve bordor bottomı buradan cektik-->
-    <div class="bgc-light-blue bor-bot-dark"> 
+      <div class="bgc-light-blue bor-bot-dark"> 
         <!-- bootstrap burada baslıyor -->
         <div class="container">  
         <nav class="navbar navbar-expand-lg navbar-light ">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">Medium</a>
+            <a class="navbar-brand " href="#"><span class="display-6"><strong>Medium</strong> </span> </a>
             <button
               class="navbar-toggler"
               type="button"
@@ -36,9 +39,9 @@
             >
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse py-2" id="navbarNav">
                 <!-- row icerisinde logo ve diger navbar sekmesini ayırmak icin  ul kısmına margin-left anlamına gelen ms-auto uyguladık -->
-              <ul class="navbar-nav ms-auto"> 
+              <ul class="navbar-nav ms-auto "> 
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="#"
                     >Our story</a>
@@ -59,7 +62,7 @@
                     >Sıgn In</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link btn btn-dark text-light" href="#"
+                    <a class="nav-link btn btn-dark text-light bor-rad ms-3 px-3" href="#"
                       >Get started</a
                     >
                   </li>
@@ -70,15 +73,53 @@
       </div>
     </div>
 
-    <!-- 
-    buyuk yazı ve resimin bulundugu alanı olusturmak icin container olusturduk -->
-    <div class="bgc-light-blue">
+     
+    <!-- buyuk yazı ve resimin bulundugu alanı olusturmak icin container olusturduk -->
+    <!-- py-5 ile y ekseninde 5 oranda padding uyguladık -->
+    <div class="bgc-light-blue py-4 bor-bot-dark ">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6">YAZI Buraya Gelecek</div>
-                <div class="col-sm-6">Görsel Kısmı Buraya gelecek</div>
+                <div class="col-sm-6">
+<!-- 
+                  h1 yetmedi bootstrap typography den display özelliginiz kulladık -->
+                  <h1 class="display-3"">Medium is a place <br>to write, read, and <br>connect</h1>
+                  <p class="lead">It's easy and free to post your thinking on any topic and connect with millions of readers.</p>
+                  <a href="" class="btn btn-outline-dark bor-rad bg-light py-2 px-4 text-dark">Start Writing</a>
+                </div>
+                <div class="col-sm-6">
+                  <img src="https://picsum.photos/300/300" class="rounded-circle float-end" alt="" >
+                </div>
             </div>
         </div>
+    </div>
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-12 mb-2">
+          <h6><img src="./images/trending-up.svg" class="me-3 " alt=""><small> TRENDING ON MEDIUM</small></h6>
+        </div>
+        <article class="col-sm-4">
+          <div class="row">
+            <div class="col-1">
+              <h2 class="text-black-50 me-3" >01</h3> 
+            </div>
+            <div class="col-11">
+              <img src="https://picsum.photos/id/27/25/25" class="rounded-circle" alt="">
+              <span>Sienna Mae Gomez</span>
+              <h6 class="mt-2">Sienna Mae Gomez: Reflections from an 18-Year Old Me</h6>
+              <ul>
+                <li>Jan 23·15 min read</li>
+              </ul>
+            </div>
+          </div>
+
+        </article>
+        <article class="col-sm-4">Obcaecati.</article>
+        <article class="col-sm-4">Laboriosam.</article>
+        <article class="col-sm-4">Quae?</article>
+        <article class="col-sm-4">Fugiat.</article>
+        <article class="col-sm-4">Dolores.</article>
+      </div>
     </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
