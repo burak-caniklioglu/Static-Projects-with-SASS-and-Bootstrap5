@@ -15,7 +15,7 @@ body{
     width: 50%;
 }
 .bor-bot-light{
-    border-bottom: 1px solid #0d6b6b;
+    border-bottom: 1px solid #e5e6e6;
 }
 .aside-buttons > li{
     margin-bottom: 1rem;
@@ -23,4 +23,18 @@ body{
 
 .bor-top-light{
     border-top: 1px solid #e0e0e0;
+}
+.bg-col{
+    background-color:rgb(241, 240, 240)  ;
+    border: none;
+}
+.bg-col:hover{
+    background-color:rgb(231, 228, 228)  ;
+    color: rgb(133, 133, 133);
+    
+}
+.sticky{
+    position: -webkit-sticky;
+position: sticky;
+top: 100px;
 }
