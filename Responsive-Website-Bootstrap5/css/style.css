@@ -26,7 +26,8 @@ a,.navbar-nav a{
 }
 
 a:hover,.navbar-nav a:hover{
-    color: #e74c3c;
+    color: #fd7465;
+    font-weight: 700;
 }
 
 .header-background{
@@ -67,5 +68,71 @@ a:hover,.navbar-nav a:hover{
 
 .navbar-brand{
     font-size: 2.2rem;
-    color:#e74c3c ;
+    color:#f7f5f4 ;
+}
+
+.navbar-toggler {
+    border:none;
+    padding: 10px 6px;
+    
+}
+.dropdown-menu{
+    background-color: #b1b4bd;
+    
+}
+.navbar-toggler span{
+    display: block;
+    width: 22px;
+    height: 2px;
+    border: 1px;
+    background: white;
+}
+
+.navbar-toggler span+span{
+    margin-top: 4px;
+    width: 22px;
+}
+
+.navbar-toggler span+span+span{
+    
+    width: 22px;
+}
+.navbar-expand-lg .navbar-nav .navbar-link{
+    padding: 1.4rem 1rem ;
+    font-size: 1.2rem;
+    position: relative;
+}
+.navbar-expand-lg .navbar-nav .active{
+    color: #fd7465;
+    font-weight: 700;
+}
+
+.btn {
+    background-color: #fd7465;
+    color: white;
+    border-radius: 10px;
+    padding: 1rem 1.5.rem;
+    font-size: 1.2rem;
+
+}
+
+.btn:hover{
+    background-color:#ff9285;
+    color: rgb(2, 2, 2);
+}
+
+
+.heading{
+    height: 82.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading h1{
+    font-size: 5rem;
+    font-weight: bold;
+    line-height: 1.4;
+    color:#323a45;
+    text-align: center;
+    
 }
