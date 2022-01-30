@@ -177,7 +177,7 @@ a:hover,.navbar-nav a:hover{
 }
 
 .service-section{
-    margin-top: 80px;
+    margin-top: 20px;
     text-align: center;
     font-size: 2.8rem;
     padding: 2rem 0;
@@ -185,16 +185,12 @@ a:hover,.navbar-nav a:hover{
 }
 
 .service-title-1{
-    margin-top: 6rem;
+    margin-top: 2rem;
     text-align: center;
     font-size: 1.8rem;
 }
 
-.service-title-2{
-    margin-top: 6rem;
-    text-align: center;
-    font-size: 1.8rem;
-}
+
 
 .service-paragraph-1{
     
@@ -436,4 +432,23 @@ strong{
 }
 .left-center-part-1{
     position: relative;
+}
+
+.gotopup .fa{
+    font-size: 28px;
+    margin-top: 10px;
+}
+.gotopup{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 40px;
+    right: 50px;
+    background-color: #323a45;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+}
+.gotopup:hover{
+    background-color: white;
 }
