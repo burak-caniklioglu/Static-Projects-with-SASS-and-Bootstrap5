@@ -2,23 +2,35 @@
   height: 55px;
   background-color: white;
 }
-
+.first-nav{
+  border-bottom: 1px solid rgb(236, 235, 235);
+  
+}
 input.searche {
   height: 36px;
-  max-width: 500px;
+  max-width: 200px;
   background-color: #eef3f8;
   border: 0;
 }
-
+.search-form{
+  
+  max-width: 230px;
+  
+}
+.form-inline img{
+  width: 6%;
+}
 input.searche::placeholder {
   font-size: 14px;
   color: gray;
+  
   
 }
 
 .body {
   background-color: #f3f2ef;
 }
+
 
 .menutext {
   font-size: 13px;
@@ -31,6 +43,11 @@ input.searche::placeholder {
 .menutext:hover {
   color: black;
 }
+
+.me{
+  margin-top: -4px;
+}
+
 
 button.mediatext {
   color: #5f5f5f;
@@ -54,6 +71,11 @@ i {
 i:hover {
   color: black;
 }
+
+.second-body{
+  padding-top: 80px;
+}
+
 
 input.content {
   border-radius: 40px;
