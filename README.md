@@ -9,6 +9,9 @@
 
 - [Linkedin Clone](#linkedin-clone)
   - In this study, I tried to create a clone of the Linkedin website with bootstrap5.
+
+- [Instagram Clone](#instagram-clone)
+  - I tried to create a clone of the Instagram website with bootstrap5.
 <br>
 <br>
 
@@ -26,3 +29,10 @@
 
 ## Linkedin Clone
 <a href="https://burak-caniklioglu.github.io/Static-Projects-with-SASS-and-Bootstrap5/Linkedin Clone with Bootstrap5/index.html"><img src="./Linkedin Clone with Bootstrap5/images/SS.PNG" width = "100%"></a>
+
+
+<br>
+<br>
+
+## Instagram Clone
+<a href="https://burak-caniklioglu.github.io/Static-Projects-with-SASS-and-Bootstrap5/Instagram-Clone-with-Bootstrap5/index.html"><img src="./Instagram-Clone-with-Bootstrap5/images/SS.PNG" width = "100%"></a>
