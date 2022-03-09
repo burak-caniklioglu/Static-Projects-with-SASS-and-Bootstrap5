@@ -12,6 +12,10 @@
 
 - [Instagram Clone](#instagram-clone)
   - I tried to create a clone of the Instagram website with bootstrap5.
+
+
+- [Landing Page](#landing-page)
+  - It is a personal portfolio website built with Sass.
 <br>
 <br>
 
@@ -36,3 +40,10 @@
 
 ## Instagram Clone
 <a href="https://burak-caniklioglu.github.io/Static-Projects-with-SASS-and-Bootstrap5/Instagram-Clone-with-Bootstrap5/index.html"><img src="./Instagram-Clone-with-Bootstrap5/images/SS.PNG" width = "100%"></a>
+
+
+<br>
+<br>
+
+## Landing Page
+<a href="https://burak-caniklioglu.github.io/Static-Projects-with-SASS-and-Bootstrap5/Landing-Page-with-Sass/index.html"><img src="./Landing-Page-with-Sass/img/ss.PNG" width = "100%"></a>
